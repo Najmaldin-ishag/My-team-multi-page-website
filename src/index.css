@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+@layer base {
+  html {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  body {
+    font-family: "Livvic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-[1200px] mx-auto my-0;
+  }
+}
+@theme {
+  /* Text colors */
+
+  --color-primary-midnight-green: rgb(1, 78, 86);
+  --color-primary-light-coral: rgb(246, 126, 126);
+  --color-primary-white: rgb(255, 255, 255);
+
+  --color-secondary-rapture-blue: rgb(121, 200, 199);
+  --color-secondary-police-blue: rgb(44, 98, 105);
+  --color-secondary-deep-jungle-green: rgb(0, 64, 71);
+  --color-secondary-dark-green: rgb(0, 37, 41);
+  --color-secondary-sacramento-state-green: rgb(1, 47, 52);
+
+  /* Background colors */
+
+  --bg-primary-midnight-green: rgb(1, 78, 86);
+  --bg-primary-light-coral: rgb(246, 126, 126);
+  --bg-primary-white: rgb(255, 255, 255);
+
+  --bg-secondary-rapture-blue: rgb(121, 200, 199);
+  --bg-secondary-police-blue: rgb(44, 98, 105);
+  --bg-secondary-deep-jungle-green: rgb(0, 64, 71);
+  --bg-secondary-dark-green: rgb(0, 37, 41);
+  --bg-secondary-sacramento-state-green: rgb(1, 47, 52);
+
+  /* Border colors */
+  --border-primary-white: rgb(255, 255, 255);
+}
