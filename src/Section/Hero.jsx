@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <header className="w-full bg-primary-midnight-green p-10">
-      <div className="grid grid-cols-2 justify-between items-center container">
+      <div className="grid grid-cols-2 justify-between items-center container gap-[2rem]">
         <h1 className="text-[100px] font-bold text-primary-white leading-[6.5rem]">
           Find the best <spn className="text-primary-light-coral">talent</spn>
         </h1>
