@@ -1,3 +1,4 @@
+import Features from "./Section/Features";
 import Hero from "./Section/Hero";
 import NavBar from "./Section/NavBar";
 
@@ -6,6 +7,9 @@ const App = () => {
     <>
       <NavBar />
       <Hero />
+      <main>
+        <Features />
+      </main>
     </>
   );
 };

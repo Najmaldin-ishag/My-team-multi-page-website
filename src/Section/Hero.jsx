@@ -6,7 +6,7 @@ const Hero = () => {
           Find the best <spn className="text-primary-light-coral">talent</spn>
         </h1>
         <div>
-          <div className=" h-1 w-[60px] bg-secondary-rapture-blue mb-5" />
+          <div className=" h-1 w-[60px] bg-secondary-rapture-blue mb-10" />
           <p className="font-semibold text-primary-white leading-small">
             Finding the right people and building high performing teams can be
             hard. Most companies aren’t tapping into the abundance of global
