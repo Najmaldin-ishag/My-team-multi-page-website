@@ -13,9 +13,9 @@ const NavBar = () => {
         </div>
         <div>
           <Button
-            href="href"
+            href="/contact-us"
             title="Contact us"
-            classname="cursor-pointer text-primary-white font-semibold border border-primary-white p-2 rounded-full"
+            className="cursor-pointer text-primary-white font-semibold border border-primary-white p-2 rounded-full"
           />
         </div>
       </nav>
