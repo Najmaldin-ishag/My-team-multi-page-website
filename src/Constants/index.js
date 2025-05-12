@@ -60,3 +60,18 @@ export const TestimonialsFeatures = [
     desc: "“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”",
   },
 ];
+
+export const socailLinks = [
+  {
+    id: "1",
+    imgPath: "./assets/icon-facebook.svg",
+  },
+  {
+    id: "2",
+    imgPath: "./assets/icon-linkedin.svg",
+  },
+  {
+    id: "3",
+    imgPath: "./assets/icon-pinterest.svg",
+  },
+];
