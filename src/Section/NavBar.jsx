@@ -1,4 +1,5 @@
 import Button from "../Components/Button";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -6,16 +7,24 @@ const NavBar = () => {
       <nav className=" container flex items-center justify-between">
         <div className="flex items-center justify-between gap-[3.5rem]">
           <img src="./assets/logo.svg" alt="logo" />
-          <span className="text-m text-primary-white font-semibold">Home</span>
-          <span className="text-m text-primary-white  font-semibold">
+          <Link
+            to="/"
+            className="text-m text-primary-white font-semibold hover:text-primary-light-coral"
+          >
+            Home
+          </Link>
+          <Link
+            to="About"
+            className="text-m text-primary-white  font-semibold hover:text-primary-light-coral"
+          >
             About
-          </span>
+          </Link>
         </div>
         <div>
           <Button
             href="/contact-us"
             title="Contact us"
-            className="cursor-pointer text-primary-white font-semibold border border-primary-white p-2 rounded-full"
+            className="cursor-pointer text-primary-white font-semibold border border-primary-white p-2 rounded-full hover:text-primary-midnight-green hover:bg-primary-white"
           />
         </div>
       </nav>
