@@ -9,7 +9,7 @@ const Cta = () => {
         </h2>
         <Button
           title="Contact us"
-          classname="px-10 py-2 border-2 cursor-pointer border-secondary-dark-green rounded-full text-secondary-dark-green text-lg font-semibold"
+          className="px-10 py-2 border-2 cursor-pointer text-secondary-dark-green  rounded-full border-secondary-dark-green text-sm font-semibold"
         />
       </div>
     </section>
