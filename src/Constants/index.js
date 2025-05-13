@@ -75,3 +75,56 @@ export const socailLinks = [
     imgPath: "./assets/icon-pinterest.svg",
   },
 ];
+
+// About
+
+export const TeamMember = [
+  {
+    id: "1",
+    name: "Nikita Marks",
+    title: "Founder & CEO",
+    avatar: "./assets/avatar-nikita.jpg",
+    desc: " “It always amazes me how much talent there is in every corner of the globe.”",
+
+    button: "./assets/icon-cross.svg",
+  },
+  {
+    id: "2",
+    name: "Cristian Duncan ",
+    title: "Co-founder & COO",
+    avatar: "./assets/avatar-christian.jpg",
+    desc: " “Distributed teams required unique processes. You need to approach work in a new way.” ",
+    button: "./assets/icon-cross.svg",
+  },
+  {
+    id: "3",
+    name: "Cruz Hamer ",
+    title: "Co-founder & CTO",
+    avatar: "./assets/avatar-cruz.jpg",
+    desc: "“Technology is at the forefront of enabling distributed teams. That's where we come in.”",
+    button: "./assets/icon-cross.svg",
+  },
+  {
+    id: "4",
+    name: "Drake Heaton ",
+    title: "Business Development Lead",
+    avatar: "./assets/avatar-drake.jpg",
+    desc: "“Hiring similar people from similar backgrounds is a surefire way to stunt innovation.”",
+    button: "./assets/icon-cross.svg",
+  },
+  {
+    id: "5",
+    name: "Griffin Wise ",
+    title: "Lead Marketing",
+    avatar: "./assets/avatar-griffin.jpg",
+    desc: "“Unique perspectives shape unique products, which is what you need to survive these days.”",
+    button: "./assets/icon-cross.svg",
+  },
+  // {
+  //   id: "6",
+  //   name: "Aden Allan",
+  //   title: "Head of Talent",
+  //   desc: "“Empowered teams create truly amazing products. Set the north star and let them follow it.”",
+  //   button: "./assets/icon-cross.svg",
+  // },
+];
