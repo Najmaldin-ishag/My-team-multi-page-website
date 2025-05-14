@@ -31,7 +31,7 @@ export const icons = [
     alt: "icon",
   },
   {
-    id: "1",
+    id: "3",
     imgPath: "./assets/icon-chart.svg",
     alt: "icon",
   },
@@ -149,5 +149,22 @@ export const LogosIcons = [
   {
     id: "1",
     imgPath: "./assets/logo-gadgets-now.png",
+  },
+];
+
+// Contact us
+
+export const Titles = [
+  {
+    id: "1",
+    title: "The quality of our talent network",
+  },
+  {
+    id: "2",
+    title: "Usage & implementation of our software",
+  },
+  {
+    id: "3",
+    title: "How we help drive innovation",
   },
 ];
