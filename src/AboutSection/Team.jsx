@@ -29,8 +29,8 @@ const Team = () => {
                     {item.title}
                   </p>
                   {/* Container div for the logo with specific styles */}
-                  <div className="relative h-15 w-15 inline-block -mb-15 z-1 bg-primary-light-coral rounded-full py-5 px-5">
-                    <Logo className="stroke-secondary-dark-green  mx-auto " />
+                  <div className="relative h-15 w-15 inline-block -mb-15 z-1 cursor-pointer bg-primary-light-coral rounded-full py-5 px-5">
+                    <Logo className="stroke-secondary-dark-green  mx-auto  " />
                   </div>
                 </div>
               </div>
@@ -56,8 +56,8 @@ const Team = () => {
                 src="./assets/icon-twitter.svg"
                 alt="twitter logo"
               />
-              <div className="flex items-center  justify-center mx-auto h-15 w-15  -mb-15 z-[1] bg-secondary-rapture-blue rounded-full py-5 px-5">
-                <Logo2 className="stroke-secondary-dark-green  " />
+              <div className="flex items-center  justify-center cursor-pointer  mx-auto h-15 w-15  -mb-15 z-[1] bg-secondary-rapture-blue rounded-full py-5 px-5">
+                <Logo2 className="stroke-secondary-dark-green " />
               </div>
             </div>
           </div>
