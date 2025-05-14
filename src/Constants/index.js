@@ -128,3 +128,26 @@ export const TeamMember = [
   //   button: "./assets/icon-cross.svg",
   // },
 ];
+
+export const LogosIcons = [
+  {
+    id: "5",
+    imgPath: "./assets/logo-the-verge.png",
+  },
+  {
+    id: "2",
+    imgPath: "./assets/logo-jakarta-post.png",
+  },
+  {
+    id: "3",
+    imgPath: "./assets/logo-tech-radar.png",
+  },
+  {
+    id: "4",
+    imgPath: "./assets/logo-the-guardian.png",
+  },
+  {
+    id: "1",
+    imgPath: "./assets/logo-gadgets-now.png",
+  },
+];
