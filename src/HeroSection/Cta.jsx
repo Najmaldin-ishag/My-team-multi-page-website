@@ -8,6 +8,7 @@ const Cta = () => {
           Ready to get started?
         </h2>
         <Button
+          href="contact-us"
           title="Contact us"
           className="px-10 py-2 border-2 cursor-pointer text-secondary-dark-green hover:text-primary-white hover:bg-secondary-dark-green  rounded-full border-secondary-dark-green text-sm font-semibold"
         />
