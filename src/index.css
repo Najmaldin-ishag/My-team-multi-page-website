@@ -55,6 +55,9 @@
   /* Stroke */
   --stroke-secondary-dark-green: rgb(0, 37, 41);
   --stroke-primary-midnight-green: rgb(1, 78, 86);
+
+  /* Breakpoint */
+  --breakpoint-xsm: 34.375em;
 }
 
 @theme inline {
