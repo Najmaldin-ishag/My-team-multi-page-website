@@ -1,12 +1,27 @@
+import { useState } from "react";
 import Button from "../Components/Button";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  // function toggleNavigation() {
+  //   if (isOpen) {
+  //     setIsOpen(false);
+  //   } else {
+  //     setIsOpen(true);
+  //   }
+  // }
+  // function handleClick() {
+  //   if (!isOpen) return;
+  //   setIsOpen(false);
+  // }
   return (
-    <div className="w-full bg-primary-midnight-green p-10">
-      <nav className=" container flex items-center justify-between">
-        <div className="flex items-center justify-between gap-[3.5rem]">
-          <img src="./assets/logo.svg" alt="logo" />
+    <header className="w-full bg-primary-midnight-green p-10 relative">
+      <nav className=" container flex items-center justify-between ">
+        <div className="flex items-center justify-between gap-[3.5rem] ">
+          <img src="./assets/logo.svg" alt="logo " />
+
           <Link
             to="/"
             className="text-m text-primary-white font-semibold hover:text-primary-light-coral"
@@ -28,7 +43,9 @@ const NavBar = () => {
           />
         </div>
       </nav>
-    </div>
+
+      {/* Mobile nav */}
+    </header>
   );
 };
 
