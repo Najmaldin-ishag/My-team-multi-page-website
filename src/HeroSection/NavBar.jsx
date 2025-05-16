@@ -5,6 +5,25 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // const [isSticky, setIsSticky] = useState(false);
+
+  // useEffect(() => {
+  //   let lastScrollY = window.scrollY;
+
+  //   const handleScroll = () => {
+  //     const currentScrollY = window.scrollY;
+
+  //     if (currentScrollY > lastScrollY && currentScrollY > 100) {
+  //       // Scrolling down
+  //       setIsSticky(true);
+  //     } else {
+  //       // Scrolling up
+  //       setIsSticky(false);
+  //     }
+
+  //     lastScrollY = currentScrollY;
+  //   };
+
   function toggleNavigation() {
     if (isOpen) {
       setIsOpen(false);
@@ -21,11 +40,11 @@ const NavBar = () => {
       <nav className=" container flex items-center justify-between ">
         <div className="flex items-center justify-between gap-[3.5rem] ">
           <div className="flex items-center justify-between gap-5">
-            <div className="max-sm:fixed">
+            <div>
               <img src="./assets/logo.svg" alt="logo " />
             </div>
 
-            <div className="lg:hidden md:hidden max-sm:block z-70  right-5 fixed ">
+            <div className="lg:hidden md:hidden max-sm:block z-70  right-5 absolute ">
               {isOpen ? (
                 <button onClick={toggleNavigation}>
                   <img src="./assets/icon-close.svg" alt="icon" />
@@ -70,7 +89,7 @@ const NavBar = () => {
       {/* Mobile nav */}
 
       {isOpen && (
-        <div className="md:hidden lg:hidden  fixed  top-0 right-0  py-5 gap-4 items-center bg-secondary-rapture-blue  w-[350px] h-screen z-50 ">
+        <div className="md:hidden lg:hidden  absolute  top-0 right-0  py-5 gap-4 items-center bg-secondary-rapture-blue  w-[250px] h-screen z-50 ">
           <div className="translate-y-1/2 flex flex-col gap-6 items-center justify-between ">
             <Link
               onClick={handleClick}
