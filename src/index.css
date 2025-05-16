@@ -39,6 +39,8 @@
   --bg-primary-light-coral: rgb(246, 126, 126);
   --bg-primary-white: rgb(255, 255, 255);
 
+  --bg-black: rgba(0, 0, 0, 0.2);
+
   --bg-secondary-rapture-blue: rgb(121, 200, 199);
   --bg-secondary-police-blue: rgb(44, 98, 105);
   --bg-secondary-deep-jungle-green: rgb(0, 64, 71);
@@ -57,7 +59,7 @@
   --stroke-primary-midnight-green: rgb(1, 78, 86);
 
   /* Breakpoint */
-  --breakpoint-xsm: 34.375em;
+  --breakpoint-sm: 770px;
 }
 
 @theme inline {
