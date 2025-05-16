@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Button = ({ title, className, href }) => {
+const Button = ({ title, className, href, onClick }) => {
   return (
-    <Link to={href} className={className}>
+    <Link onClick={onClick} to={href} className={className}>
       {title}
     </Link>
   );
