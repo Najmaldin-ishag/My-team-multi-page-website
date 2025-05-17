@@ -9,11 +9,11 @@ const Team = () => {
         <h3 className="text-center text-primary-white font-bold text-[3rem] mb-[4rem]">
           Meet the directors
         </h3>
-        <div className="grid grid-cols-3 grid-rows-2 gap-5 items-center gap-y-[5rem] justify-center max-sm:grid-cols-1  ">
+        <div className="grid grid-cols-3 grid-rows-2 gap-5 items-center gap-y-[5rem] justify-center max-sm:grid-cols-1 max-md:grid-cols-2  ">
           {TeamMember.map((item) => (
             <div
               key={item.id}
-              className="py-5 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-sm:mx-auto "
+              className="py-5 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-md:max-w-[70%] max-sm:mx-auto max-md:mx-auto  "
             >
               <div>
                 <img
@@ -36,12 +36,12 @@ const Team = () => {
               </div>
             </div>
           ))}
-          <div className="text-center py-9 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-sm:mx-auto">
+          <div className="text-center py-9 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-md:p-9 max-md:ml-20 max-sm:mx-auto max-md:max-w-[70%]">
             <div>
               <h3 className="text-secondary-rapture-blue font-bold text-md">
                 Aden Allan
               </h3>
-              <p className="text-primary-white font-semibold text-[1.4rem] ">
+              <p className="text-primary-white font-semibold text-[1.4rem] max-md:text-[1.1rem]">
                 “Empowered teams create truly amazing products. Set the north
                 star and let them follow it.”{" "}
               </p>
