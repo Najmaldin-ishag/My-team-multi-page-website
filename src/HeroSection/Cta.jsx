@@ -2,7 +2,7 @@ import Button from "../Components/Button";
 
 const Cta = () => {
   return (
-    <section className="py-10 w-full bg-primary-light-coral relative">
+    <section className="py-10 w-full bg-primary-light-coral relative max-sm:py-15">
       <div className="max-w-[950px] h-[100px] flex justify-between items-center text-center mx-auto my-0 max-sm:flex-col max-sm:pb-80 max-sm:pt-10">
         <h2 className="font-bold text-5xl text-secondary-dark-green z-10 max-sm:mb-[2rem] max-sm:text-7xl">
           Ready to get started?
@@ -10,7 +10,7 @@ const Cta = () => {
         <Button
           href="contact-us"
           title="Contact us"
-          className="px-10 py-2 border-2 cursor-pointer text-secondary-dark-green hover:text-primary-white hover:bg-secondary-dark-green  rounded-full border-secondary-dark-green text-sm font-semibold"
+          className="px-10 py-2 border-2 cursor-pointer max-sm:z-10 text-secondary-dark-green hover:text-primary-white hover:bg-secondary-dark-green  rounded-full border-secondary-dark-green text-sm font-semibold"
         />
         <img
           src="./assets/bg-pattern-home-6-about-5.svg"
