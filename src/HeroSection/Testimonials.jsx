@@ -2,14 +2,19 @@ import { TestimonialsFeatures } from "../Constants";
 
 const Testimonials = () => {
   return (
-    <section className="py-[6rem] px-0 w-full bg-primary-midnight-green">
+    <section className="py-[6rem] px-0 w-full bg-primary-midnight-green relative">
       <div className="container">
-        <h2 className="text-center text-primary-white font-bold text-4xl mb-8">
+        <img
+          src="./assets/bg-pattern-home-4-about-3.svg"
+          alt="background img"
+          className="left-0 top-0 absolute  z-0"
+        />
+        <h2 className="text-center text-primary-white font-bold text-4xl mb-8 max-sm:text-4xl max-sm:mt-10">
           Delivering real results for top <br />
           companies. Some of our{" "}
           <span className="text-secondary-rapture-blue">success stories.</span>
         </h2>
-        <div className="grid grid-cols-3 gap-5 p-10">
+        <div className="grid grid-cols-3 gap-5 p-10 max-sm:grid-cols-1 max-sm:py-20">
           {TestimonialsFeatures.map((item) => (
             <figure key={item.id}>
               <img
@@ -35,6 +40,10 @@ const Testimonials = () => {
             </figure>
           ))}
         </div>
+        <img
+          src="./assets/bg-pattern-home-5.svg"
+          className="absolute right-0 bottom-0"
+        />
       </div>
     </section>
   );
