@@ -60,6 +60,7 @@
 
   /* Breakpoint */
   --breakpoint-sm: 770px;
+  --breakpoint-xsm: 400px;
   --breakpoint-md: initial;
   --breakpoint-md: 1100px;
 }
