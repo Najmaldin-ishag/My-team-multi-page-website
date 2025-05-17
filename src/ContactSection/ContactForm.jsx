@@ -43,9 +43,9 @@ const ContactForm = () => {
     console.log(e);
   }
   return (
-    <section className="w-full bg-primary-midnight-green h-[800px] py-[2.5rem]">
-      <div className="container grid grid-cols-2 justify-between items-center gap-10 !mt-[4.5rem]">
-        <div className="flex flex-col gap-10 ">
+    <section className="w-full bg-primary-midnight-green max-sm:pb-[50rem] py-[2.5rem]">
+      <div className="container grid grid-cols-2 justify-between items-center gap-10 !mt-[4.5rem] max-sm:grid-cols-1 max-sm:text-center max-sm:px-10 max-sm:h-[600px] max-md:grid-cols-1 max-md:pb-50 max-md:text-center max-md:px-20">
+        <div className="flex flex-col gap-10 max-md:items-center">
           <h3 className="font-bold text-primary-white text-[4.5rem] leading-[2.2rem]">
             Contact
           </h3>
@@ -53,14 +53,14 @@ const ContactForm = () => {
             Ask About us
           </p>
           <div>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-5 ">
               <div>
                 {icons.map((icon) => (
                   <img
                     key={icon.id}
                     src={icon.imgPath}
                     alt={icon.alt}
-                    className=" mb-5 w-10 h-auto"
+                    className=" mb-5 w-10 h-auto max-sm:w-[100%] max-sm:h-[100%]  max-sm:mb-10"
                   />
                 ))}
               </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
                 {Titles.map((item) => (
                   <p
                     key={item.id}
-                    className="text-primary-white font-[300] text-[1.8rem] mb-5"
+                    className="text-primary-white font-[300] text-[1.8rem] mb-5 max-sm:font-[100%] max-sm:mb-5"
                   >
                     {item.title}
                   </p>
@@ -77,7 +77,7 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-        <div className="ml-10">
+        <div className="ml-10 max-sm:">
           <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
               <FormField
