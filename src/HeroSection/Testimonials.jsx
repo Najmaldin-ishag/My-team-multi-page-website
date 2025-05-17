@@ -14,7 +14,7 @@ const Testimonials = () => {
           companies. Some of our{" "}
           <span className="text-secondary-rapture-blue">success stories.</span>
         </h2>
-        <div className="grid grid-cols-3 gap-5 p-10 max-sm:grid-cols-1 max-sm:py-20">
+        <div className="grid grid-cols-3 gap-5 p-10 max-sm:grid-cols-1 max-sm:py-20 max-md:grid-cols-1">
           {TestimonialsFeatures.map((item) => (
             <figure key={item.id}>
               <img
@@ -22,7 +22,7 @@ const Testimonials = () => {
                 alt="quotes"
                 className="mx-auto -mb-5 z-0 size-[4rem]"
               />
-              <blockquote className="text-primary-white font-semibold text-md">
+              <blockquote className="text-primary-white font-semibold text-md max-md:text-center max-md:text-xl">
                 {item.desc}
               </blockquote>
               <figcaption className="text-center mt-8">
