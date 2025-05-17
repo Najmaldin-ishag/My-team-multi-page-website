@@ -44,7 +44,7 @@ const NavBar = () => {
               <img src="./assets/logo.svg" alt="logo " />
             </div>
 
-            <div className="lg:hidden md:hidden max-sm:block z-70  right-5 absolute ">
+            <div className="lg:hidden max-md:hidden max-sm:block z-70  right-5 absolute ">
               {isOpen ? (
                 <button onClick={toggleNavigation}>
                   <img src="./assets/icon-close.svg" alt="icon" />
