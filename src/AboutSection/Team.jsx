@@ -9,11 +9,11 @@ const Team = () => {
         <h3 className="text-center text-primary-white font-bold text-[3rem] mb-[4rem]">
           Meet the directors
         </h3>
-        <div className="grid grid-cols-3 grid-rows-2 gap-5 items-center gap-y-[5rem]">
+        <div className="grid grid-cols-3 grid-rows-2 gap-5 items-center gap-y-[5rem] justify-center max-sm:grid-cols-1  ">
           {TeamMember.map((item) => (
             <div
               key={item.id}
-              className="py-5 px-2 bg-secondary-sacramento-state-green w-full"
+              className="py-5 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-sm:mx-auto "
             >
               <div>
                 <img
@@ -36,7 +36,7 @@ const Team = () => {
               </div>
             </div>
           ))}
-          <div className="text-center py-9 px-2 bg-secondary-sacramento-state-green w-full">
+          <div className="text-center py-9 px-2 bg-secondary-sacramento-state-green w-full max-sm:max-w-[70%] max-sm:mx-auto">
             <div>
               <h3 className="text-secondary-rapture-blue font-bold text-md">
                 Aden Allan
